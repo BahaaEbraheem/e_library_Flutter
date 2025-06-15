@@ -192,17 +192,17 @@ class _SignupScreenState extends State<SignupScreen> {
                   return null;
                 },
               ),
-              const SizedBox(height: 16),
-              CheckboxListTile(
-                title: const Text('تسجيل كمسؤول (أدمن)'),
-                value: _isAdmin,
-                onChanged: (value) {
-                  setState(() {
-                    _isAdmin = value ?? false;
-                  });
-                },
-                controlAffinity: ListTileControlAffinity.leading,
-              ),
+              // const SizedBox(height: 16),
+              // CheckboxListTile(
+              //   title: const Text('تسجيل كمسؤول (أدمن)'),
+              //   value: _isAdmin,
+              //   onChanged: (value) {
+              //     setState(() {
+              //       _isAdmin = value ?? false;
+              //     });
+              //   },
+              //   controlAffinity: ListTileControlAffinity.leading,
+              // ),
               const SizedBox(height: 24),
               SizedBox(
                 width: double.infinity,
